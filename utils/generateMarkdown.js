@@ -1,6 +1,7 @@
 // function to generate markdown for README
-function generateMarkdown(data) {`
-# ${data.title}
+function generateMarkdown(data) {
+    return `
+# ${data.title} 
 
 ----  
 ## Table of Contents
@@ -38,9 +39,8 @@ ${data.tests}
 
 ----
 ##Questions
-
-${data.questions}escription
-
+* gitHub: [${data.gitHub}](https://github.com/${data.gitHub})
+* Email: <${data.email}>
 `}
 
 module.exports = generateMarkdown;
