@@ -14,31 +14,31 @@ function generateMarkdown(data) {
 * [Questions] (#Questions)
 
 ----
-##Description
+## Description
 ${data.description}
 
 ----
-##Installation
+## Installation
 ${data.installation}
 
 ----
-##Usage
+## Usage
 ${data.usage}
 
 ----
-##License
+## License
 ${data.license}
 
 ----
-##Contributing
+## Contributing
 ${data.contributing}
 
 ----
-##Tests
+## Tests
 ${data.tests}
 
 ----
-##Questions
+## Questions
 If you have question, reach out to:
 
 * gitHub: [${data.gitHub}](https://github.com/${data.gitHub})
