@@ -70,7 +70,7 @@ return inquirer.prompt(questions)
 init()
     .then(function(data){
         const answers = generateMarkdown(data);
-        return writeFileAsync(`${data.title}.md`, answers);
+        return writeFileAsync(`${data.title}_README.md`, answers);
     })
     .then(function(){
         console.log("Successfully created README file");
