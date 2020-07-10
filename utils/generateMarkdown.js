@@ -39,6 +39,8 @@ ${data.tests}
 
 ----
 ##Questions
+If you have question, reach out to:
+
 * gitHub: [${data.gitHub}](https://github.com/${data.gitHub})
 * Email: <${data.email}>
 `}
